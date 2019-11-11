@@ -6,5 +6,6 @@
 
 void initSeed();
 double randomDouble(double, double);
+int randomInteger(int, int);
 
 #endif
