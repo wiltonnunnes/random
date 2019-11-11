@@ -11,3 +11,7 @@ double randomDouble(double low, double high) {
 
 	return low + d;
 }
+
+int randomInteger(int low, int high) {
+    return low + rand() % high;
+}
