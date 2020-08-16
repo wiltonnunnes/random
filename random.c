@@ -15,3 +15,9 @@ double randomDouble(double low, double high) {
 int randomInteger(int low, int high) {
     return low + rand() % high;
 }
+
+float randomFloat(float low, float high) {
+  float f = (float) rand() / RAND_MAX;
+  f *= high - low;
+  return low + f;
+}
